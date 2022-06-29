@@ -1,0 +1,263 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.header-home{
+    /* position: sticky; */
+    /* top: 0; */
+    background: rgba(75, 72, 72, 0.671) url('https://cdn.wallpaperhub.app/cloudcache/9/3/c/b/f/2/93cbf2ddbabe4b97ee4879772013d5b638714fe9.jpg') no-repeat center fixed;
+    /* background-repeat: no-repeat; */
+    background-blend-mode: overlay;
+    background-size: cover;
+    height: 20vh;
+    width: 100vw;
+}
+.logo a img{
+    box-shadow: 0px 0px 10px 3px rgb(11, 245, 62);
+}
+
+.header{
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    /* background-color: rgb(241, 72, 199); */
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* justify-content: end; */
+}
+.list li{
+    list-style-type: none;
+    margin: 0px 30px;
+    font-size: 25px;
+    /* color: red; */
+    text-decoration: none;
+}
+.list li a{
+    color: rgb(107, 248, 12);
+    text-decoration: none;
+    border: 2px solid greenyellow ;
+    padding: 5px;
+    border-radius: 5px;
+}
+.list li a:hover{
+    background-color: rgb(0, 0, 0);
+}
+.linee {
+    border-top: 3px solid rgb(255, 17, 0);
+    width: 150px;
+    height: 2px;
+}
+.spec{
+    margin: 20px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.spec h1,h2,div{
+    padding: 8px 0px;
+}
+.intt{
+    display: flex;
+    height: 40vh;
+    width: 100vw;
+    justify-content: space-around;
+    margin-bottom: 25px;
+}
+.imagee{
+    width: 35vw;
+    height: 40vh;
+    
+
+}
+.infoo{
+    width: 55vw;
+    height: 40vh;
+    background-color: rgb(225, 231, 231);
+    border-left: 4px solid red;
+}
+.award{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+.award div{
+    text-align: center;
+}
+.award div i{
+    color: rgb(239, 255, 11);
+}
+.award div p{
+    font-size: 20px;
+}
+.award div i,p,h3{
+    margin: 10px 0px;
+}
+#sect-3{
+    background-color: black;
+    width: 100vw;
+    /* height: ; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linees{
+    border-top: 4px solid red;
+    width: 150px;
+    /* width: 200px; */
+    /* text-align: center; */
+}
+.skill{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bord{
+    width: 90vw;
+    height: 10px;
+    border: 1px solid black;
+    background-color: grey;
+    border-radius: 6px;
+    position: relative;
+}
+.rate{
+    color: white;
+    margin-bottom: 30px;
+}
+.num1{
+    background-color:yellow;
+    /* width:85vw; */
+    width:0;
+    height: 10px;
+    position: absolute;
+    left: 0px;
+    top:0;
+    border-radius: 6px 0px 0px 6px;
+    transition: width 3s ease;
+}
+.review,.review-1{
+    display: flex;
+    justify-content: space-around;
+}
+.review div{
+    border: 2px solid black;
+    width: 20vw;
+    height: 20vh;
+    padding-left: 10px;
+}
+.review-1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+    /* background-color: black; */
+}
+.review-1 div{
+    display: flex;
+    justify-content: space-between;
+}
+.review-1 div img {
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+}
+.review-1 div p{
+    font-size: 20px;
+    padding: 0px 10px;
+}
+.count{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(160, 160, 19);
+    height: 25vh;
+    /* margin-bottom: 0px; */
+}
+.count div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.count div h1{
+    margin: 10px 0px;
+}
+/* .count div i{ */
+    /* background-color: rgb(0, 0, 0); */
+/* } */
+.footer{
+    /* margin-top: 50px; */
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(122, 233, 150);
+    width: 100vw;
+}
+.fot{
+    background-color: rgb(122, 233, 150);
+    text-align: center;
+    padding: 50px 0px 16px 0px;
+    font-size: 22px;
+    margin-bottom: -10px;
+}
+.linee-f{
+    border-top: 3px solid rgb(255, 17, 0);
+    width: 90px;
+    height: 2px;
+}
+.footer div{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+table td a i{
+  margin: 5px 10px 10px 5px;
+  text-decoration: none;
+  color: black;
+  border-radius: 50%;
+}
+#inst:hover{
+    background-color: rgb(255, 13, 203);
+}
+#face:hover{
+    background-color: rgb(0, 102, 255);
+}
+#linked:hover{
+    background-color: rgb(0, 60, 255);
+}
+#git:hover{
+    background-color: rgb(255, 255, 255);
+}
+#map1:hover{
+    background-color: yellow;
+}
+.mail,.num{
+    text-align: center;
+}
+.mail a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.num a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.num a:hover,.mail a:hover{
+    background-color: yellow;
+}
+.count div h1{
+    font-size: 50px
+}
