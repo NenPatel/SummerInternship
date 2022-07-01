@@ -32,8 +32,6 @@ function functionCall() {
    // console.log(main)
    if(main<height)
    {
-
-
     var progress = document.getElementById("barr12")
     progress.style.width = progress.getAttribute("bar")
     progress.style.opacity = 1

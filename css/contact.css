@@ -285,3 +285,6 @@ form .sub{
 form .sub:hover{
     background-color: rgba(96, 204, 204, 0.774);
 }
+.sect-2{
+    background-color: rgb(190, 189, 189);
+}
