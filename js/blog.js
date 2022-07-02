@@ -11,7 +11,7 @@ function butFun(){
     but.textContent == "Read More" ?
     but.textContent = "Read Less" : but.textContent = "Read More"
 }
-// but.classList.toggle("show-1")
+
 function butFun1(){
     
     const item1 = document.querySelector(".showw-1")
@@ -19,4 +19,11 @@ function butFun1(){
      
     but1.textContent == "Read More" ?
     but1.textContent = "Read Less" : but1.textContent = "Read More"
+}
+
+setInterval(funct,1000)
+function funct(){
+    var date = new Date()
+    document.querySelector("#datee1").innerHTML = date.toLocaleString()
+    document.querySelector("#datee").innerHTML = date.toLocaleString()
 }
