@@ -98,7 +98,7 @@ body{
     font-size: 20px;
 }
 .award div i,p,h3{
-    margin: 10px 0px;
+    margin: 5px 0px;
 }
 .sect-3{
     background-color: black;
@@ -287,4 +287,11 @@ form .sub:hover{
 }
 .sect-2{
     background-color: rgb(190, 189, 189);
+}
+.link1,.link2,.link3,.link4,.link5,.link6{
+    text-decoration: none;
+    color: black;
+}
+.link1:hover,.link2:hover,.link3:hover,.link4:hover,.link5:hover,.link6:hover{
+    color: rgb(255, 0, 0);
 }

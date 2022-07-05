@@ -185,3 +185,10 @@ table td a i{
     transform: translate(-50%, -50%);
     white-space: nowrap;
   }
+  .link1,.link2,.link3,.link4,.link5,.link6{
+    text-decoration: none;
+    color: black;
+}
+.link1:hover,.link2:hover,.link3:hover,.link4:hover,.link5:hover,.link6:hover{
+    color: rgb(255, 0, 0);
+}
