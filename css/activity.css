@@ -4,12 +4,14 @@
 }
 body{
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 .header-home{
     /* position: sticky; */
     /* top: 0; */
     background: rgba(75, 72, 72, 0.671) url('https://cdn.wallpaperhub.app/cloudcache/9/3/c/b/f/2/93cbf2ddbabe4b97ee4879772013d5b638714fe9.jpg') no-repeat center fixed;
     /* background-repeat: no-repeat; */
+
     background-blend-mode: overlay;
     background-size: cover;
     height: 20vh;
@@ -162,7 +164,7 @@ table td a i{
     overflow: hidden;
     width: 0;
     height:0;
-    transition: width .7s ease, height .7s ease ;
+    transition: width .9s ease, height .9s ease ;
   }
 .grid-item:hover .overlay {
     width: 100%;
@@ -174,7 +176,7 @@ table td a i{
 }  
 .text {
     color: rgb(0, 0, 0);
-    font-size: 30px;
+    font-size: 22px;
     position: absolute;
     top: 50%;
     left: 50%;
