@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/form.css">
+</head>
+<body>
+    <!-- <form action=""> -->
+        <!-- <div class="main"> -->
+        <div class="in1">
+            <div class="form-content"><input type="text" required>
+                <label for="">Name</label>
+            </div>
+            <div class="form-content"><input type="text" required>
+                <label for="">Subject</label>
+            </div>
+        </div>
+        <div class="in2">
+            <div class="form-content"><input type="email" required>
+                <label for="">Email</label>
+            </div>
+            <div class="form-content"><input type="text" required>
+                <label for="">Phone No</label>
+            </div>
+        </div>
+        <div class="in3">
+            <textarea name="textarea" id="tarea" cols="110" rows="10" placeholder="Message"></textarea>
+        </div>
+        <div class="submit">
+            <button>Submit</button>
+          </div>
+    <!-- </div> -->
+    <!-- </form> -->
+    <script>
+        
+    const targets = document.querySelectorAll('label');
+    Array.from(targets).forEach((item) => {
+        item.innerHTML = item.innerHTML.split('').map((elem, index) => {
+            console.log(elem)
+            return(
+                `<span style="transition-delay: ${index*80}ms" >${elem}</span>`
+            );
+        }).join('')
+    })
+
+    </script>
+</body>
+</html>

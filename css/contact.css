@@ -74,8 +74,6 @@ body{
 .imagee{
     width: 35vw;
     height: 40vh;
-    
-
 }
 .infoo{
     width: 55vw;
@@ -255,36 +253,7 @@ table td a i{
 .count div h1{
     font-size: 50px
 }
-form div input {
-    /* margin: 20px 0px; */
-    margin-right: 50px;
-    padding: 2px;
-    font-size: 16px;
-}
-form div label{
-    font-size: 20px;
-}
-form div label{
-    margin-left: 50px;
-}
-form div{
-    margin-top: 10px;
-    margin-bottom: 30px;
-}
-form textarea{
-    padding: 2px 8px;
-    margin-bottom: 18px;
-    font-size: 16px;
-}
-form .sub{
-    font-size: 20px;
-    width: 90px;
-    background-color: rgb(8, 247, 255);
-    /* margin-bottom: 20px; */
-}
-form .sub:hover{
-    background-color: rgba(96, 204, 204, 0.774);
-}
+
 .sect-2{
     background-color: rgb(190, 189, 189);
 }
@@ -295,3 +264,92 @@ form .sub:hover{
 .link1:hover,.link2:hover,.link3:hover,.link4:hover,.link5:hover,.link6:hover{
     color: rgb(255, 0, 0);
 }
+.map1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(73, 73, 73);
+    height: 45vh;
+}
+.map11{
+    color: white;
+    font-size: 20px;
+}
+.in1,.in2,.in3{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 40px 0px; */
+    margin-top: 20px;
+    margin-bottom: 45px;
+}
+.in3{
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 40px 0px; */
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+.in3 textarea{
+    padding-left: 6px;
+    padding-top: 4px;
+    font-size: 14px;
+}
+form{
+    width: 100vw;
+    /* height: vh; */
+}
+.form-content {
+    position: relative;
+    margin: 0px 0 0px;
+    width: 300px;
+  }
+  .form-content input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px rgb(0, 0, 0) solid;
+    display: block;
+    width: 100%;
+    /* padding: 0px 0; */
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .form-content > input:focus,
+  .form-content > input:valid {
+    outline: 0;
+    border-bottom: rgb(255, 0, 0) 2px solid;
+  }
+  
+  .form-content label {
+    position: absolute;
+    bottom: 18px;
+    left: 0;
+  }
+  
+  .form-content label span {
+    display: inline-block;
+    font-size: 16px;
+    min-width: 5px;
+    /* transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
+    transition: 0.09s ease;
+  }
+  .form-content > input:focus + label > span,
+  .form-content > input:valid + label > span {
+    color: #444;
+    transform: translateY(-30px);
+  }
+  .submit{
+    display: flex;
+    justify-content: center;
+  }
+  .submit button{
+    width: 130px;
+    height: 30px;
+    background-color: rgb(57, 255, 7);
+    font-size: 20px;
+    margin: auto;
+  }
+  .submit button:hover{
+    background-color: rgb(7, 187, 112);
+  }
