@@ -242,11 +242,11 @@ table td a i{
 .link1:hover,.link2:hover,.link3:hover,.link4:hover,.link5:hover,.link6:hover{
     color: rgb(255, 0, 0);
 }
-@media (max-width:500px) {
+/* @media (max-width:500px) {
     .list{
         flex-direction: column;
     }
     .list li {
         margin: 13px 20px 10px 2px;
     }
-}
+} */
